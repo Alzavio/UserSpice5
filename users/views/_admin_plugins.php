@@ -184,7 +184,7 @@ $token = Token::generate();
                           <?php } ?>
                           <?php if ($usplugins[$t] == 0) { ?>
                             <button type="submit" name="activate" value="Activate" class="btn btn-outline-success" title="Activate">
-                              <i class="fa fa-toggle-on" aria-hidden="true"></i>
+                              <i class="fa fa-toggle-off" aria-hidden="true"></i>
                             </button>
                             <button type="submit" name="uninstall" value="Uninstall" class="btn btn-outline-danger" title="Uninstall">
                               <i class="fa fa-trash-o" aria-hidden="true"></i>
